@@ -5,6 +5,7 @@ import { GeistMono } from 'geist/font/mono'
 import { Navbar } from './components/nav'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -57,6 +58,7 @@ export default function RootLayout({
           <Footer />
         </main>
       </body>
+      <Analytics/>
     </html>
   )
 }
