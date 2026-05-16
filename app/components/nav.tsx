@@ -7,11 +7,11 @@ const navItems = {
   },
   '/blog': {
     name: 'blog',
-    href: 'https://blog.jerryyf.dev',
+    href: 'https://jerryyf.github.io',
   },
-  '/about': {
-    name: 'about',
-    href: '/about',
+  '/contact': {
+    name: 'contact',
+    href: '/contact',
   },
 }
 

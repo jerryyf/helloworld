@@ -10,8 +10,6 @@ export function TypeWriter() {
         2000,
         'is a platform engineer',
         2000,
-        'self-hosts',
-        2000,
         'is a Vim enjoyer',
         2000,
       ]}
