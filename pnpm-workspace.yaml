@@ -1,0 +1,4 @@
+allowBuilds:
+  '@tsparticles/engine': true
+  aws-sdk: true
+  sharp: true
