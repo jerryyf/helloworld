@@ -1,8 +1,10 @@
 import { TypeWriter } from './components/typewriter'
 import { Background } from './components/background'
 import CredlyBadge from 'app/components/credlyBadge'
+import { observe } from './lib/observe'
 
 export default function Page() {
+  observe()
   return (
     <section className="-scroll-mt-px flex-grow font-mono">
       <Background />
